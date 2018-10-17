@@ -31,6 +31,7 @@ public class Constants {
 	public static final String[] FITTING_CAPS = {"CAP,END-CAP"};
 
 	public static final Integer PROVIDERS_ID_OFFSET = 1000;
-	
+	public static final Integer PROJECTS_ID_OFFSET = 1000;
+	public static final Integer ASSETS_ID_OFFSET = 1000;
 	
 }

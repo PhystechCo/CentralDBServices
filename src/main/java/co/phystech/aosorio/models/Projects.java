@@ -31,7 +31,7 @@ public class Projects {
 	private String owner;
 	private String team;
 	private String presentationDate;
-	private String aprovalDate;
+	private String approvalDate;
 	private String document;
 	
 	@Embedded
@@ -206,20 +206,6 @@ public class Projects {
 	}
 
 	/**
-	 * @return the aprovalDate
-	 */
-	public String getAprovalDate() {
-		return aprovalDate;
-	}
-
-	/**
-	 * @param aprovalDate the aprovalDate to set
-	 */
-	public void setAprovalDate(String aprovalDate) {
-		this.aprovalDate = aprovalDate;
-	}
-
-	/**
 	 * @return the document
 	 */
 	public String getDocument() {
@@ -245,6 +231,20 @@ public class Projects {
 	 */
 	public void setTimeTrackerRegistry(List<TimeTrackerRegistry> timeTrackerRegistry) {
 		this.timeTrackerRegistry = timeTrackerRegistry;
+	}
+
+	/**
+	 * @return the approvalDate
+	 */
+	public String getApprovalDate() {
+		return approvalDate;
+	}
+
+	/**
+	 * @param approvalDate the approvalDate to set
+	 */
+	public void setApprovalDate(String approvalDate) {
+		this.approvalDate = approvalDate;
 	}
 	
 		
