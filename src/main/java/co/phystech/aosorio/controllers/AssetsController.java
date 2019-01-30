@@ -242,10 +242,10 @@ public class AssetsController {
 
 	}
 
-	public static WriteResult delete(Assets provider) {
+	public static WriteResult delete(Assets asset) {
 
 		datastore = NoSqlController.getInstance().getDatabase();
-		return datastore.delete(provider);
+		return datastore.delete(asset);
 	}
 
 	private static long count() {

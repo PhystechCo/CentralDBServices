@@ -18,16 +18,17 @@ public class Assets {
 	private String itemcode;
 	
 	private AssetsTypes type;
+	private AssetsStatus status;
 	
 	private String description;
 	private int quantity;
 	private String unit;
 	private String partNumber;
 	private String serialNumber;
-	private float unitValue;
+	private double unitValue;
+	private String valueCurrency;
 	private String entryDate;
 	private String dischargeDate;
-	private String status;
 	private String location;
 	private String barcode;
 	private String note;
@@ -120,13 +121,13 @@ public class Assets {
 	/**
 	 * @return the unitValue
 	 */
-	public float getUnitValue() {
+	public double getUnitValue() {
 		return unitValue;
 	}
 	/**
 	 * @param unitValue the unitValue to set
 	 */
-	public void setUnitValue(float unitValue) {
+	public void setUnitValue(double unitValue) {
 		this.unitValue = unitValue;
 	}
 	/**
@@ -156,13 +157,13 @@ public class Assets {
 	/**
 	 * @return the status
 	 */
-	public String getStatus() {
+	public AssetsStatus getStatus() {
 		return status;
 	}
 	/**
 	 * @param status the status to set
 	 */
-	public void setStatus(String status) {
+	public void setStatus(AssetsStatus status) {
 		this.status = status;
 	}
 	/**
@@ -212,6 +213,18 @@ public class Assets {
 	 */
 	public void setProject(String project) {
 		this.project = project;
+	}
+	/**
+	 * @return the valueCurrency
+	 */
+	public String getValueCurrency() {
+		return valueCurrency;
+	}
+	/**
+	 * @param valueCurrency the valueCurrency to set
+	 */
+	public void setValueCurrency(String valueCurrency) {
+		this.valueCurrency = valueCurrency;
 	}
 		
 }

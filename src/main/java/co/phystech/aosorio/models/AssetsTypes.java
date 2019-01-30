@@ -9,6 +9,7 @@ package co.phystech.aosorio.models;
  */
 
 public enum AssetsTypes {
+	
     EQUIPMENT,
     SOFTWARE,
     RAWMATERIAL,
